@@ -1,13 +1,13 @@
 # VBA-xlr8
 
-Custom extenion for VS code that helps develop MS Excel workbooks
+Custom extension for VS code that helps develop MS Excel workbooks
 with macros directly from VS code
 
 ## Features
 
-Currently some supported feature are 
+Currently, some supported feature are 
 
-- Synstax Highlining 
+- Syntax Highlighting 
 - On click excel run button and compile your code into a VBA module
 
 ## Extension Settings
