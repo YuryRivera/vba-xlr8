@@ -33,13 +33,13 @@
       {
         "id": "vba",
         "aliases": [
-					"VBA"
-				],
+          "VBA"
+        ],
         "extensions": [
-					".bas",
-					".cls",
-					".vba"
-				],
+          ".bas",
+          ".cls",
+          ".vba"
+        ],
         "configuration": "./lang-config.json",
         "icon": {
           "dark": "./assets/images/vba.svg",
