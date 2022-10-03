@@ -16,16 +16,37 @@
   "contributes": {
     "commands": [
       {
-        "command": "vba-xlr8.helloWorld",
-        "title": "Run excel",
+        "command": "vba-xlr8.vbaRun",
+        "title": "Run Excel VBA",
         "icon": "$(play)"
+      },
+      {
+        "command": "vba-xlr8.pauseRun",
+        "title": "Stop Excel VBA",
+        "icon": "$(debug-stop)"
+      },
+      {
+        "command": "vba-xlr8.compile",
+        "title": "Compile Excel",
+        "icon": "$(code)"
       }
     ],
     "menus": {
       "editor/title": [
         {
-          "command": "vba-xlr8.helloWorld",
-          "group": "navigation"
+          "command": "vba-xlr8.vbaRun",
+          "group": "navigation",
+          "when": "editorLangId == vba && !vbaxrl8run"
+        },
+        {
+          "command": "vba-xlr8.compile",
+          "group": "navigation",
+          "when": "editorLangId == vba && !vbaxrl8run"
+        },
+        {
+          "command": "vba-xlr8.pauseRun",
+          "group": "navigation",
+          "when": "editorLangId == vba && vbaxrl8run"
         }
       ]
     },
