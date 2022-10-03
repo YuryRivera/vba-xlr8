@@ -36,17 +36,17 @@
         {
           "command": "vba-xlr8.vbaRun",
           "group": "navigation",
-          "when": "editorLangId == vba && !vbaxrl8run"
+          "when": "editorLangId == vba && !vbaxlr8run"
         },
         {
           "command": "vba-xlr8.compile",
           "group": "navigation",
-          "when": "editorLangId == vba && !vbaxrl8run"
+          "when": "editorLangId == vba && !vbaxlr8run"
         },
         {
           "command": "vba-xlr8.pauseRun",
           "group": "navigation",
-          "when": "editorLangId == vba && vbaxrl8run"
+          "when": "editorLangId == vba && vbaxlr8run"
         }
       ]
     },
